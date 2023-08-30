@@ -13,7 +13,7 @@ import warnings
 class train_model:
 
     def train(self):
-        data = pd.read_csv('training_dataset.csv')
+        data = pd.read_csv('Training.csv')
         array = data.values
 
         for i in range(len(array)):
